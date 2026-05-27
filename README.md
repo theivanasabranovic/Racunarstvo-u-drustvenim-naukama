@@ -1,7 +1,7 @@
 # Racunarstvo u drustvenim naukama
 Analiza i vizulaizacija podataka - Analiza cena stanova u Njujorku
 
-U ovom radu analizirani su podaci o cenama stanova u Njujorku.
+Analizirani su podaci o cenama stanova u Njujorku.
 Cilj analize je ispitivanje uticaja kvadrature i broja sobe na cenu stana.
 
 Metode koje se koriste u analizi:
