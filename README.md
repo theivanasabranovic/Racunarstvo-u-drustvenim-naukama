@@ -16,4 +16,6 @@ Rezultati linearne regresije pokazuju u kojoj meri broj soba, broj kupatila i kv
 Posebno je značajna kvadratura, jer veći stanovi u proseku imaju višu cenu. 
 Model omogućava procenu cene na osnovu osnovnih karakteristika nekretnine.
 
+Na osnovu stabla odlučivanja može se zaključiti da kvadratura nekretnina ima najveći uticaj na cenu stanova u Njujorku. Veći stanovi uglavnom imaju značajno višu cenu u odnosu na manje nekretnine. Rezultati mogu biti pod uticajem ekstremno skupih luksuznih nekretnina koje povećavaju prosečne vrednosti cena u datasetu.
+
 Izvor podataka: https://www.kaggle.com/datasets/nelgiriyewithana/new-york-housing-market/data
