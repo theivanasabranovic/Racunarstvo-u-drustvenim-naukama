@@ -18,6 +18,7 @@ klasifikacija podataka i
 vizualizacija podataka pomoću ggplot2.
 
 Rezultati analize:
+
 Baza podataka sadrži 4801 nekretninu u Njujorku, dostupne su informacije o cenama nekretnina, kvadraturi, broju soba i drugim karakteristikama. Iz originalne baze izdvojene su kolone koje su relevantne za analizu. 
 Cene se kreću od 2.500 dolara do 2,1 milijardu dolara što ukazuje na veliku raznolikost tržišta i prisustvo luksuznih nekretnina, odnosno ukazuje na prisustvo ekstremnih vrednosti u bazi. Prosečna cena nekretnina iznosi približno 2,3miliona dolara, dok medijalna vrednost iznosi oko 825.000 dolara.Velika razlika između prosečne i medijalne vrednosti ukazuje na prisustvo ekstremnih vrednosti. Prosečna kvadratura nekretnina iznosi oko 2.100 kvadratnih stopa, dok najveće nekretnine imaju više od 65.000 kvadratnih stopa. Većina nekretnina u bazi poseduje između dve i četiri sobe i između jedan i tri kupatila. 
 Pre kreiranja modela izvršena je podela podataka na trening i test skup metodom data sampling. Trening skup je korišćen za treniranje modela linearne regresije i stabla odlučivanja, dok test skup omogućava proveru performansi modela nad podacima koje model prethodno nije koristio. 
