@@ -6,7 +6,7 @@ Student: Ivana Sabranović, 51/2025
 Analiza cena nekretnina u Njujorku
 
 Analizirani su podaci o cenama stanova u Njujorku.
-Cilj analize bio je ispitivanje uticaja karakteristike nekretnina, poput kvadrature, broja soba i broja kupatila na cenu stanova.
+Cilj analize je ispitivanje uticaja karakteristike nekretnina, poput kvadrature, broja soba i broja kupatila na cenu stanova.
 Korišćen je dataset sa podacima o nekretninama u Njujorku preuzet sa Kaggle platforme. 
 
 Metode koje se koriste u analizi:
