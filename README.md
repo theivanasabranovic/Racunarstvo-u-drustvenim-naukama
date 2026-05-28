@@ -10,12 +10,12 @@ Cilj analize je ispitivanje uticaja karakteristike nekretnina, poput kvadrature,
 Korišćen je dataset sa podacima o nekretninama u Njujorku preuzet sa Kaggle platforme. 
 
 Metode koje se koriste u analizi:
--Obrada i čišćenje podataka
--Data sampling
--Linearna regresija
--Decision tree
--Klasifikacija podataka
--Vizualizacija podataka pomoću ggplot2
+obrada i čišćenje podataka,
+data sampling,
+linearna regresija,
+stablo odlucivanja,
+klasifikacija podataka i 
+vizualizacija podataka pomoću ggplot2.
 
 Rezultati analize:
 Baza podataka sadrži 4801 nekretninu u Njujorku, dostupne su informacije o cenama nekretnina, kvadraturi, broju soba i drugim karakteristikama. Iz originalne baze izdvojene su kolone koje su relevantne za analizu. 
