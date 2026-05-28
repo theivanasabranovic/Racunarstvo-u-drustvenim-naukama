@@ -21,7 +21,7 @@ Rezultati analize:
 
 Baza podataka sadrži 4801 nekretninu u Njujorku, dostupne su informacije o cenama nekretnina, kvadraturi, broju soba i drugim karakteristikama. Iz originalne baze izdvojene su kolone koje su relevantne za analizu. 
 
-Cene se kreću od 2.500 dolara do 2,1 milijardu dolara što ukazuje na veliku raznolikost tržišta i prisustvo luksuznih nekretnina, odnosno ukazuje na prisustvo ekstremnih vrednosti u bazi. Prosečna cena nekretnina iznosi približno 2,3 miliona dolara, dok medijalna vrednost iznosi oko 825.000 dolara.Velika razlika između prosečne i medijalne vrednosti ukazuje na prisustvo ekstremnih vrednosti. Prosečna kvadratura nekretnina iznosi oko 2.100 kvadratnih stopa, dok najveće nekretnine imaju više od 65.000 kvadratnih stopa. Većina nekretnina u bazi poseduje između dve i četiri sobe i između jedan i tri kupatila. 
+Cene se kreću od 2.500 dolara do 2,1 milijardu dolara što ukazuje na veliku raznolikost tržišta i prisustvo luksuznih nekretnina. Prosečna cena nekretnina iznosi približno 2,3 miliona dolara, dok medijalna vrednost iznosi oko 825.000 dolara. Velika razlika između prosečne i medijalne vrednosti ukazuje na prisustvo ekstremnih vrednosti. Prosečna kvadratura nekretnina iznosi oko 2.100 kvadratnih stopa, dok najveće nekretnine imaju više od 65.000 kvadratnih stopa. Većina nekretnina u bazi poseduje između dve i četiri sobe i između jedan i tri kupatila. 
 
 Pre kreiranja modela izvršena je podela podataka na trening i test skup metodom data sampling. Trening skup je korišćen za treniranje modela linearne regresije i stabla odlučivanja, dok test skup omogućava proveru performansi modela nad podacima koje model prethodno nije koristio. 
 
@@ -29,7 +29,7 @@ Za potrebe vizualizacije uklonjene su ekstremne vrednosti cena i kvadrature koje
 
 Rezultati linearne regresije pokazuju da kvadratura i broj kupatila pozitivno utiče na cenu nekretnina. Kvadratura se pokazala kao jedna od najznačajnijih promenljivih u modelu. Vrednost koeficijenta determinacije pokazuje da model objašnjava deo varijacije cena nekretnina, ali da na cenu utiču i dodatni faktori koji nisu uključeni u analizu.
 
-Rezultati stabla odlučivanja pokazuju da kvadratura predstavlja najvažniji faktor pri određivanju cene nekretnina. Nakon početne podele prema kvadraturi, model dalje koristi broj kupatila i broj soba kako bi formirao grupe nekretnina sa sličnim cenama. Ovakav model omogućava jednostavnu i vizuelno preglednu interpretaciju odnosa između karakteristika nekretnika i njihove vrednosti.
+Rezultati stabla odlučivanja pokazuju da kvadratura predstavlja najvažniji faktor pri određivanju cene nekretnina. Nakon početne podele prema kvadraturi, model dalje koristi broj kupatila i broj soba kako bi formirao grupe nekretnina sa sličnim cenama. Ovakav model omogućava jednostavnu i vizuelno preglednu interpretaciju odnosa između karakteristika nekretnina i njihove vrednosti.
 
 Izvršena je jednostavna klasifikacija nekretnina na “Luksuzne” I “Standardne” na osnovu cene, pri čemu je dodata nova kolona Category koja omogućava lakšu analizu i grupisanje podataka. Na osnovu ove klasifikacije odrađena je I korisnička funkcija za klasifikaciju nekretnina na osnovu njihove cene. Funkcija omogućava automatsko određivanje kategorije nekretnina kao luksuzne ili standardne.
 
