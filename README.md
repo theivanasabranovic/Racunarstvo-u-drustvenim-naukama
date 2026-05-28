@@ -1,5 +1,7 @@
 # Racunarstvo u drustvenim naukama - Analiza i vizualizacija podataka
-Profesor: dr Dragan O. Đurić                                       Student: Ivana Sabranović, 51/2025
+Profesor: dr Dragan O. Đurić 
+
+Student: Ivana Sabranović, 51/2025
 
 Analiza cena nekretnina u Njujorku
 
